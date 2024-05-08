@@ -25,7 +25,7 @@ var confirmPassword = document.querySelector('#confirmPassword').value;
       return false;
     }
 
-    var emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+    var emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,7}$/;
     if (!emailRegex.test(email)) {
       alert('Invalid email. Please enter a valid email address');
       return false;

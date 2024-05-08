@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Micro+5+Charted&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    margin: 0;
+    background-color: #A8DADC;
+    overflow: hidden;
+    font-family: "Jersey 20", sans-serif;
+    font-size: 1.2rem;
+    color: #1D3557;
+  }
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
